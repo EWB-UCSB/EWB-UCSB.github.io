@@ -1,0 +1,37 @@
+*,*::before,*::after{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+}
+body, html{
+    height: 100%;
+}
+.bg{
+    background-image: url("Images/Better-Green-Earth.jpg");
+    height: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu-button{
+    background: #00AAFF;
+    width: 100%;
+    height: 100px;
+    margin-top: 150px;
+    
+}
+.menu-button > button {
+    cursor: pointer;
+    font-size: 25px;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(200,255,200, .75);
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.menu-button >button:hover {
+    background-color: rgba(200,255, 200, .9);
+}
+img#globe-logo{
+    float:right;
+}
