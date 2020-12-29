@@ -1,0 +1,43 @@
+
+/* site.css */
+
+
+/* Body */
+
+body, 
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+}
+
+
+/* Nav Bar */
+
+.nav-bar {
+    background-color: #00AAFF;
+
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+
+.nav-bar a {
+    cursor: pointer;
+    font-size: 25px;
+
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+}
+.nav-bar a:hover {
+    background-color: #c8ffc8e6;
+}
+.nav-bar * {
+    text-align: center;
+}
+
+#Globe-Logo {
+    margin-right: 0;
+}
