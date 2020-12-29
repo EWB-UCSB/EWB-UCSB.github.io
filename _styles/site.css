@@ -15,7 +15,7 @@ html {
 
 /* Nav Bar */
 
-.nav-bar {
+#NavBar {
     background-color: #00AAFF;
 
     display: flex;
@@ -24,17 +24,17 @@ html {
     justify-content: space-between;
 }
 
-.nav-bar a {
+#NavBar a {
     cursor: pointer;
     font-size: 25px;
 
     box-sizing: border-box;
     border: 1px solid #ffffff;
 }
-.nav-bar a:hover {
+#NavBar a:hover {
     background-color: #c8ffc8e6;
 }
-.nav-bar * {
+#NavBar * {
     text-align: center;
 }
 
