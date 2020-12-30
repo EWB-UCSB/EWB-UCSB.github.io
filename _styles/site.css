@@ -6,7 +6,7 @@
 
 body, 
 html {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Thassadith", sans-serif;
     min-height: 100vh;
     min-width: 100vw;
     margin: 0;
@@ -27,13 +27,14 @@ html{scroll-behavior: smooth;}
 
 #NavBar a {
     cursor: pointer;
-    font-size: 25px;
-
+    font-size: 20px;
+    padding: 5px 5px;
     box-sizing: border-box;
     border: 1px solid #ffffff;
 }
 #NavBar a:hover {
     background-color: #c8ffc8e6;
+    transition: 0.5s;
 }
 #NavBar * {
     text-align: center;
@@ -42,3 +43,48 @@ html{scroll-behavior: smooth;}
 #Globe-Logo {
     margin-right: 0;
 }
+.dropbtn {
+  
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+   
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: 21px;
+    background-color: white; 
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+    
+    
+    
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+  
+  }
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: white;
+    color: #000;
+  }
