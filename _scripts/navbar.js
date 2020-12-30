@@ -10,8 +10,9 @@ const pathPrefix = upADir.repeat( dirlevel );
 
 // Fill NavBar Here
 const navbar_content = `
+<a href="${pathPrefix}." class="dropbtn">Home</a>
 <div class ="dropdown">
-    <a href="${pathPrefix}." class="dropbtn">Home</a>
+    <a class="dropbtn">Project Teams</a>
     <div id="myDropdown" class="dropdown-content">
     <a>Kenya/Panama Team</a>
     <a>Rwanda Team</a>
