@@ -12,17 +12,17 @@ const pathPrefix = upADir.repeat( dirlevel );
 const navbar_content = `
 <a href="${pathPrefix}." class="dropbtn">Home</a>
 <div class ="dropdown">
-    <a class="dropbtn">Project Teams</a>
+    <a href="${pathPrefix}Project_Teams/" class="dropbtn">Project Teams</a>
     <div id="myDropdown" class="dropdown-content">
-    <a>Kenya/Panama Team</a>
-    <a>Rwanda Team</a>
-    <a>Local Team</a>
+    <a href="${pathPrefix}Project_Teams/Kenyama_Team/">Kenya/Panama Team</a>
+    <a href="${pathPrefix}Project_Teams/Rwanda_Team/">Rwanda Team</a>
+    <a href="${pathPrefix}Project_Teams/Local_Team/">Local Team</a>
     </div>
 </div>
 <a href="${pathPrefix}Officers/">Officers</a>
-<a>Industries Without Borders</a>
+<a href="${pathPrefix}IWB/">Industries Without Borders</a>
 <a href="${pathPrefix}Fundraisers/">Fundraisers</a>
-<img id="Globe-Logo" src="${pathPrefix}_images/EWB-UCSB-Logo.jpg" height="100px">
+<img id="Globe-Logo" src="/_images/EWB-UCSB-Logo.jpg" height="100px">
 `;
 
 const NavBar = document.getElementById("NavBar");
